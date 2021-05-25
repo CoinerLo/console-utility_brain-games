@@ -1,14 +1,13 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
   "description": "[![Actions Status](https://github.com/CoinerLo/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/CoinerLo/frontend-project-lvl1/actions)",
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --bail"
   },
   "repository": {
     "type": "git",
@@ -23,9 +22,25 @@
   "bugs": {
     "url": "https://github.com/CoinerLo/frontend-project-lvl1/issues"
   },
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {},
+    "testRunner": "jest-circus/runner"
+  },
   "homepage": "https://github.com/CoinerLo/frontend-project-lvl1#readme",
   "devDependencies": {
-    "lodash": "^4.17.21",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.1",
+    "jest-circus": "^27.0.1",
+    "jest-cli": "^27.0.1",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
     "readline-sync": "^1.4.10"
   }
 }
