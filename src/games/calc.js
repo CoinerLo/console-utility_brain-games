@@ -1,3 +1,5 @@
+/* eslint no-eval: 0 */
+
 import getRandomInt from '../function.js';
 import gameLogic from '../index.js';
 
