@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/CoinerLo/console-utility_brain-games/workflows/hexlet-check/badge.svg)](https://github.com/CoinerLo/console-utility_brain-games/actions)
-[![example workflow](https://github.com/CoinerLo/console-utility_brain-games/actions/workflows/github-actions.yml/badge.svg)](https://github.com/CoinerLo/console-utility_brain-games/actions/workflows/github-actions.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Node.js CI](https://github.com/CoinerLo/page-layout_portal-music-box/actions/workflows/node.js.yml/badge.svg)](https://github.com/CoinerLo/console-utility_brain-games/actions/workflows/node.js.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/717802cfb3956754d640/maintainability)](https://codeclimate.com/github/CoinerLo/console-utility_brain-games/maintainability)
 ### Brain even asciinema
 [![asciicast](https://asciinema.org/a/F5dLpS9dDwjuv5uJegD4sNGcu.svg)](https://asciinema.org/a/F5dLpS9dDwjuv5uJegD4sNGcu)
 ### Brain calc asciinema
